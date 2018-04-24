@@ -1,0 +1,121 @@
+<div class="carouselbody">
+  <h2 class="text-center">Wedding Invitation</h2>
+<carousel3d
+         ng-model="homeCtrl.slides"
+         options="homeCtrl.options"
+         on-selected-click="homeCtrl.selectedClick(index)"
+         on-slide-change="homeCtrlhomeCtrl.slideChanged(index)"
+         on-last-slide="homeCtrl.lastSlide(index)"
+         on-before-change="homeCtrl.beforeChange(index)">
+
+     <carousel3d-slide ng-repeat="slide in homeCtrl.slides">
+         <figure>
+             <img ng-src="{{slide.src}}" alt=""/>
+             <figcaption ng-bind="slide.caption"></figcaption>
+         </figure>
+     </carousel3d-slide>
+
+ </carousel3d>
+</div>
+<section id="inviationbody">
+  <div class="invitation-content">
+<h1 class="mrg-top-25 inv-mrg-top">Wedding Invitation</h1>
+    <p>We request your gracious presence with family & friends</p>
+    <p>on the auspicious occasion of marriage. </p>
+
+    <p>joining the lives of</p>
+    <h1 class="mrg-top-25">Mr. Geetha Krishna Manikanteswar</h1>
+    <h1>&</h1>
+    <h1>Ms. Rachana</h1>
+
+  </div>
+</section>
+<section class="hidden-xs">
+  <div id="cd-timeline" class="cd-container">
+                <!-- <div class="cd-timeline-block"><div class="cd-timeline-img cd-picture"><img src="images/card1.png" alt="Picture"></div><div class="cd-timeline-content"><h2>Engagement</h2><h3>24th Nov 2017</h3><p>A new life and a new beginning of our journey together started on this blissful day.</p></div></div><div class="cd-timeline-block" style="margin-top:100px"><div class="cd-timeline-img cd-picture"><img src="images/card2.png" alt="Picture"></div><div class="cd-timeline-content"><h2>Pellikuthuru Ceremony</h2><h3>19th Feb 2018</h3><p>This ritual is the start of the actual wedding prep, where the bride and groom get ready to look their best on their special day. The Pellikuthuru is held separately at the bride’s and groom’s homes, where close family members smear them with oil and turmeric. The intention is to make the skin glow, so that the bride and groom literally outshine the others on their wedding day! This is followed by a bath, after which they are presented with brand new clothes along with jewelry and flowers for the bride.</p></div></div> -->
+				<!-- <div class="cd-timeline-block"><div class="cd-timeline-img cd-picture"><img src="images/card3.png" alt="Picture"></div><div class="cd-timeline-content"><h2>In Relationship</h2><h3>1 Year Ago</h3><p>Proin ligula nunc, pulvinar sit amet sem id, feugiat scelerisque tortor. Nam luctus tellus nibh, nec ultricies ipsum placerat et. Pellentesque tempus molestie felis, vitae fermentum tellus convallis ut. Nulla vestibulum, ante sit amet rutrum ornare, turpis nunc laoreet felis, quis pellentesque</p></div></div> -->                    
+				<!-- <div class="cd-timeline-block"> -->
+                        <!-- <div class="cd-timeline-img cd-movie">
+                            <h2>Is Great</h2> </div> -->
+                        <!-- cd-timeline-img -->
+                    <!-- </div> -->
+                    <!-- cd-timeline-block -->
+            </div>
+</section>
+<section class="hidden-lg hidden-md hidden-sm">
+    <!-- <div class="col-xs-12 mobile-view">
+        <img src="images/card1.png" class="img-repsonsive center-block" alt="Picture">
+        <div class="cd-timeline-content2"><h2>Engagement</h2><h3>24th Nov 2017</h3><p>A new life and a new beginning of our journey together started on this blissful day.</p></div>
+    </div> -->
+    <!-- <div class="col-xs-12 mobile-view">
+        <img src="images/card2.png" class="img-repsonsive center-block" alt="Picture">
+        <div class="cd-timeline-content2"><h2>Pellikuthuru Ceremony</h2><h3>19th Feb 2018</h3><p>This ritual is the start of the actual wedding prep, where the bride and groom get ready to look their best on their special day. The Pellikuthuru is held separately at the bride’s and groom’s homes, where close family members smear them with oil and turmeric. The intention is to make the skin glow, so that the bride and groom literally outshine the others on their wedding day! This is followed by a bath, after which they are presented with brand new clothes along with jewelry and flowers for the bride.</p></div>
+    </div -->
+    <!-- <div class="col-xs-12 mobile-view">
+        <img src="images/card3.png" class="img-repsonsive center-block" alt="Picture">
+        <div class="cd-timeline-content2"><h2>In Relationship</h2><h3>1 Year Ago</h3><p>Proin ligula nunc, pulvinar sit amet sem id, feugiat scelerisque tortor. Nam luctus tellus nibh, nec ultricies ipsum placerat et. Pellentesque tempus molestie felis, vitae fermentum tellus convallis ut. Nulla vestibulum, ante sit amet rutrum ornare, turpis nunc laoreet felis, quis pellentesque</p></div>
+    </div> -->
+</section>
+<section id="location">
+
+    <div class="col-md-6">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.507810587561!2d78.4833948!3d17.5309934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8545a82fc7f5%3A0x60e26deed48223e8!2sKVR+Gardens!5e0!3m2!1sen!2sin!4v1518765038275" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    -->
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.8000419573414!2d80.04584631422755!3d15.495184158682404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b0101128c8b6f%3A0xc289c399ce3df107!2sHotel+Sarovar!5e0!3m2!1sen!2sin!4v1524596558287" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div> 
+    <div class="col-md-6">
+      <div class="address-area">
+        <div class="address-img">
+          <img src="images/scroll.png" class="img-responsive">
+        </div>
+        <div class="address-details">
+          <h2>address</h2>
+          <p>Hotel Sarovar Function Hall</p>
+          <p>Dharavari Gardens,</p>
+          <p>Ongole,</p>
+          <p>Prakasam - 523001.</p>
+		  <!-- <h2><b>date and time</b></h2> -->
+		  <p><b>27<sup>th</sup> April 2018 ,Night 12:39 am</b></p>
+		  
+		  
+		  
+        </div>
+
+      </div>
+    </div>
+</section>
+<!-- <div class="col-md-12 text-center">{{homeCtrl.pageTitle}}</div> -->
+
+<!-- <div> -->
+<!-- <input type="text" ng-model="homeCtrl.firstname"> -->
+<!-- <input type="text" ng-model="homeCtrl.lastname"> -->
+<!-- {{homeCtrl.firstname +''+homeCtrl.lastname}} -->
+<!-- <ul ng-repeat="values in homeCtrl.obj"> -->
+  <!-- <li>{{values.firstname}}</li> -->
+  <!-- <li>{{values.tech}}</li> -->
+  <!-- <li>{{values.salary}}</li> -->
+<!-- </ul> -->
+<!-- <table> -->
+    <!-- <tr ng-repeat="tblvalues in homeCtrl.obj"> -->
+    <!-- <td>{{tblvalues.firstname}}</td> -->
+    <!-- </tr> -->
+<!-- </table> -->
+<!-- <table style="padding: 20px; width: 60%;"> -->
+    <!-- <tr> -->
+      <!-- <th  align="left">id</th> -->
+      <!-- <th  align="left">status</th> -->
+      <!-- <th  align="left">name</th> -->
+    <!-- </tr> -->
+    <!-- <tr *ngFor="let item of employee"> -->
+      <!-- <td>{{item.id}}</td> -->
+      <!-- <td>{{item.status}}</td> -->
+      <!-- <td>{{item.name}}</td> -->
+    <!-- </tr> -->
+<!-- </table> -->
+<!-- </div> -->
+<!-- <nav class="navbar navbar-default"> -->
+  <!-- <div class="navbar-header"> -->
+      <!-- <a class="navbar-brand"></a> -->
+  <!-- </div> -->
+  <!-- <div class="" -->
+<!-- </nav> -->
